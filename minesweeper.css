@@ -1,0 +1,123 @@
+body {
+   margin: 0;
+   padding: 0;
+   border: none;
+   background-color: none;
+   color: #333;
+   font-family: Arial, Helvetica, sans-serif, 'Arial', sans-serif;
+   font-size: 16px;
+   text-align: center; /* Important */
+}
+
+/* Dashboard and Controls */
+
+#dashboard {
+   text-align: left;
+   margin-top: 30px;
+}
+
+.controls {
+   width: 438px; /* (numCols * 44) - 2 */
+   margin: 0 auto;
+   font-weight: bold;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   position: relative;
+}
+
+#difficulty {
+   list-style: none;
+   padding: 0;
+   padding-left: 10px;
+   display: inline-block;
+}
+
+#difficulty li {
+   background-color: #bbb;
+   color: #fff;
+   cursor: pointer;
+   display : inline-block;
+
+   font-size: 14px;
+
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+
+   text-align: center;
+   padding: 6px 8px;
+}
+
+#difficulty li:hover { background-color: #333; }
+#difficulty li.selected { background-color: #777; }
+
+#board {
+   min-width: 440px;
+   margin-bottom: 50px;
+}
+
+.boxx {
+   background-color: #31abc4;
+   display: inline-block;
+
+   border: 2px solid none;
+   margin: 2px;
+   cursor: pointer;
+
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+
+   width: 38px;
+   height: 38px;
+
+   font-size: 22px;
+   line-height: 38px;
+}
+
+.safe {
+   background-color: #eee;
+   color: #494949;;
+}
+
+.bomb {
+   color: #333;
+}
+
+.boxx .fa { line-height: 40px; }
+.boxx .fa-bomb { font-size: 24px; }
+.boxx .fa-smile-o { font-size: 26px; }
+
+.boxx:hover { background-color:#e5d78e; }
+
+#new-game {
+   width: 420px;
+   background-color: #777;
+   color: #fff;
+   font-size: 38px;
+   padding: 15px 0;
+   cursor: pointer;
+}
+
+#new-game:hover { background-color: #333; }
+
+#feedback {
+   display: inline-block;
+   font-size: 30px;
+   padding-top: 4px;
+   right: 0;
+   position:absolute;
+}
+
+#title {
+margin-left: 30%;
+  background-color:#c9c9c9;
+  text-align: center;
+  width:40%;
+  height:50px;
+  border-radius: 5px;
+   margin-top: 10px;
+   font-size: 30px;
+   color: #494949;
+}
